@@ -22,6 +22,7 @@ function App() {
       <h1>もろんのんっぽい文字列ジェネレータ</h1>
       <div id="result">{result}</div>
       <p>レーベンシュタイン距離(小さいほど正解に近い): {levenshtein.get(ANSWER, result)}</p>
+      <footer><a href="https://github.com/kaibadash/moron_non_gen">ソース</a></footer>
     </div>
   );
 }
